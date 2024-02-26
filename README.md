@@ -46,6 +46,23 @@
     </tr>
   </tbody>
 </table>
+<h3>Guides</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🎁 Guide Name</b></td>
+      <td><b>🎁 Description</b></td>
+      <td><b>📚 Link</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Buffer Overflow Guide</p></td>
+      <td><p>This Bufferflow Guide includes instructions and the scripts necessary for Buffer Overflow Exploitation. This guide is a supplement for TheCyberMentor's walkthrough.</p></td>
+      <td><p><a href="https://github.com/johnjhacking/Buffer-Overflow-Guide">Github</a></p></td>
+    </tr>
+  </tbody>
+</table>
 <h3>My Identified Common Vulnerabilities & Exposures (CVES)</h3>
 <table>
   <thead align="center">
