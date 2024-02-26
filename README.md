@@ -8,6 +8,7 @@
   <thead align="center">
     <tr border: none;>
       <td><b>🎁 Tool Name</b></td>
+      <td><b>🎁 Usage</b></td>
       <td><b>⭐ Stars</b></td>
       <td><b>📚 Forks</b></td>
       <td><b>📚 Link</b></td>
@@ -16,9 +17,17 @@
   <tbody>
     <tr>
       <td><p>BadgerDAPS</p></td>
+      <td><p>Brute Ratel LDAP filtering and sorting tool. Easily take BR log output and pull hostnames for ease of use with other red team tooling. Supports OU filtering and removes disabled hosts.</p></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/johnjhacking/badgerDAPS?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Stars" src="https://img.shields.io/github/forks/johnjhacking/badgerDAPS?style=flat-square&labelColor=343b41"/></td>
       <td><p><a href="https://github.com/johnjhacking/badgerDAPS">Github</a></p></td>
+    </tr>
+    <tr>
+      <td><p>Signal DLL Hijacking</p></td>
+      <td><p>DLL Malware for Signal Desktop. Utilizes missing cryptbase.dll </p></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/forks/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
+      <td><p><a href="https://github.com/johnjhacking/Signal-DLL-Hijacking">Github</a></p></td>
     </tr>
   </tbody>
 </table>
