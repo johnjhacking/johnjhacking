@@ -24,10 +24,24 @@
     </tr>
     <tr>
       <td><p>Signal DLL Hijacking</p></td>
-      <td><p>DLL Malware for Signal Desktop. Utilizes missing cryptbase.dll </p></td>
+      <td><p>DLL Malware for Signal Desktop. Utilizes missing cryptbase.dll</p></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Stars" src="https://img.shields.io/github/forks/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
       <td><p><a href="https://github.com/johnjhacking/Signal-DLL-Hijacking">Github</a></p></td>
+    </tr>
+    <tr>
+      <td><p>RokuRogue</p></td>
+      <td><p>A script for brute forcing Roku TVs and installing applications remotely. </p></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/johnjhacking/RokuRogue?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/forks/johnjhacking/RokuRogue?style=flat-square&labelColor=343b41"/></td>
+      <td><p><a href="https://github.com/johnjhacking/RokuRogue">Github</a></p></td>
+    </tr>
+    <tr>
+      <td><p>Jorogumo</p></td>
+      <td><p>Red Team Stored XSS SVG phishing-companion tool with the ability to serve a malicious login page, or clone an html page and implement custom javascript. It then generates a relevant SVG.</p></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/SpiderLabs/Jorogumo?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/forks/SpiderLabs/Jorogumo?style=flat-square&labelColor=343b41"/></td>
+      <td><p><a href="https://github.com/SpiderLabs/Jorogumo">Github</a></p></td>
     </tr>
   </tbody>
 </table>
