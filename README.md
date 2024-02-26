@@ -58,8 +58,18 @@
   <tbody>
     <tr>
       <td><p>Buffer Overflow Guide</p></td>
-      <td><p>This Bufferflow Guide includes instructions and the scripts necessary for Buffer Overflow Exploitation. This guide is a supplement for TheCyberMentor's walkthrough.</p></td>
+      <td><p>This Bufferflow Guide includes instructions and the scripts necessary for Buffer Overflow Exploitation. This guide is a supplement for TheCyberMentor's walkthrough. Includes companion scripts</p></td>
       <td><p><a href="https://github.com/johnjhacking/Buffer-Overflow-Guide">Github</a></p></td>
+    </tr>
+    <tr>
+      <td><p>The Ultimate CRTO Preparation Guide</p></td>
+      <td><p>The ultimate guide to passing the Certified Red Team Operator exam by Zero Point Security.</p></td>
+      <td><p><a href="https://johnjhacking.com/blog/the-ultimate-crto-preparation-guide">Link</a></p></td>
+    </tr>
+    <tr>
+      <td><p>OSCP Reborn - 2023 Exam Preparation Guide</p></td>
+      <td><p>Revamped OSCP guide, tailored to be relevant for the latest revision of the OSCP which includes Active Directory exploitation. </p></td>
+      <td><p><a href="https://johnjhacking.com/blog/oscp-reborn-2023">Link</a></p></td>
     </tr>
   </tbody>
 </table>
