@@ -11,7 +11,8 @@
       <td><b>⭐ Severity</b></td>
       <td><b>📚 Description</b></td>
       <td><b>🛎 Associated Risk</b></td>
-      <td><b>  Primary Reference</b></td>
+      <td><b>🛎 Additional Comments</b></td>
+      <td><b>  Proof of Concept</b></td>
     </tr>
   </thead>
   <tbody>
@@ -20,7 +21,8 @@
       <td><p>9.8 CRITICAL</p></td>
       <td><p>Natus NeuroWorks and SleepWorks before 8.4 GMA3 utilize a default password of xltek for the Microsoft SQL Server service sa account, allowing a threat actor to perform remote code execution, data exfiltration, or other nefarious actions such as tampering with data or destroying/disrupting MSSQL services.</p></td>
       <td><p>Remote code execution via MSSQL paired with CrackMapExec. Data theft, tampering, or destruction. Negatively affecting medical patients' results. </p></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/thmsgbrt/react-simple-pull-to-refresh?style=flat-square&labelColor=343b41"/></td>
+      <td><p>More likely to be exploited by a threat actor on the internal network.</p></td>
+      <td><a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/pwning-electroencephalogram-eeg-medical-devices-by-default/"><b>Writeup</b></a></td>
     </tr>
 	  <tr>
       <td><a href="https://github.com/thmsgbrt/Chrome-Extension-with-React-and-Typescript-Starter-Pack"><b>Typescript & React Chrome Extension Starter</b></a></td>
@@ -38,7 +40,7 @@
     </tr>
   </tbody>
 </table>
-<h3>My latest posts</h3>
+<h3>Latest Writeups</h3>
 <ul>
   <li><a href="https://medium.com/better-programming/create-your-first-ethereum-smart-contract-with-remix-ide-667e46e81901"><b><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/fire_1f525.png" width="20" alt="new" /> Create Your First Ethereum Smart Contract With Remix IDE</b></a><br/><i>Build a Blockchain-powered chat from your browser!.</i></li>
   <li><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91"><b><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/fire_1f525.png" width="20" alt="new" /> How to Create a Self-Updating README.md for Your GitHub Profile</b></a><br/><i>A good tutorial to do your first steps with GitHub Actions</i></li>
