@@ -58,7 +58,7 @@
   <tbody>
     <tr>
       <td><p>Buffer Overflow Guide</p></td>
-      <td><p>This Bufferflow Guide includes instructions and the scripts necessary for Buffer Overflow Exploitation. This guide is a supplement for TheCyberMentor's walkthrough. Includes companion scripts</p></td>
+      <td><p>This Bufferflow Guide includes instructions and the scripts necessary for Buffer Overflow Exploitation. This guide is a supplement for TheCyberMentor's walkthrough. Includes companion scripts. It's pretty old as it was used for the original OSCP which has since been reworked.</p></td>
       <td><p><a href="https://github.com/johnjhacking/Buffer-Overflow-Guide">Github</a></p></td>
     </tr>
     <tr>
