@@ -91,8 +91,32 @@
       <td><p>9.8 CRITICAL</p></td>
       <td><p>Natus NeuroWorks and SleepWorks before 8.4 GMA3 utilize a default password of xltek for the Microsoft SQL Server service sa account, allowing a threat actor to perform remote code execution, data exfiltration, or other nefarious actions such as tampering with data or destroying/disrupting MSSQL services.</p></td>
       <td><p>Remote code execution via MSSQL paired with CrackMapExec. Data theft, tampering, or destruction. Negatively affecting medical patients' results. </p></td>
-      <td><p>More likely to be exploited by a threat actor on the internal network.</p></td>
+      <td><p>More likely to be exploited by a threat actor on the internal network, have used this on multiple medical client networks so it's relevant for pivoting.</p></td>
       <td><a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/pwning-electroencephalogram-eeg-medical-devices-by-default/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24068"><b>CVE-2023-24068: Signal Desktop Attachment Modification</b></a></td>
+      <td><p>7.8 HIGH</p></td>
+      <td><p>Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to modify conversation attachments within the attachments.noindex directory. Client mechanisms fail to validate modifications of existing cached files, resulting in an attacker's ability to insert malicious code into pre-existing attachments or replace them completely. A threat actor can forward the existing attachment in the corresponding conversation to external groups, and the name and size of the file will not change, allowing the malware to masquerade as another file.</p></td>
+      <td><p>Native spear fishing. If a backdoored attachment gets forwarded to a group chat, everyone can end up compromised.</p></td>
+      <td><p>Unlikely to be abused by your everday threat actor. This is of particular interest to federal and intelligence agencies, both domestic to the US and foreign.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2023-24068-cve-2023-24069/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-24069"><b>CVE-2023-24069: Signal Desktop Attachment Recovery After Deletion</b></a></td>
+      <td><p>3.3 LOW</p></td>
+      <td><p>Signal Desktop before 6.2.0 on Windows, Linux, and macOS allows an attacker to obtain potentially sensitive attachments sent in messages from the attachments.noindex directory. Cached attachments are not effectively cleared. In some cases, even after a self-initiated file deletion, an attacker can still recover the file if it was previously replied to in a conversation./p></td>
+      <td><p>Recovery of deleted attachments, rendering deletion pointless.</p></td>
+      <td><p>Unlikely to be abused by your everday threat actor. This is of particular interest to federal agencies or within eDiscovery and legal hold processes.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2023-24068-cve-2023-24069/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/cve-2022-27226"><b>CVE-2022-27226: CSRF to RCE in iRZ Mobile Routers through 2022-03-16</b></a></td>
+      <td><p>8.8 HIGH</p></td>
+      <td><p>A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a threat actor to create a crontab entry in the router administration panel. The cronjob will consequently execute the entry on the threat actor's defined interval, leading to remote code execution, allowing the threat actor to gain filesystem access. In addition, if the router's default credentials aren't rotated or a threat actor discovers valid credentials, remote code execution can be achieved without user interaction./p></td>
+      <td><p>Remote code execution via compromised credentials or chained credential theft.</p></td>
+      <td><p>Likely to be abused if access to this router is obtained. Exploitation is trivial.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2022-27226/"><b>Writeup</b></a></td>
     </tr>
 	  <tr>
       <td><a href="https://github.com/thmsgbrt/Chrome-Extension-with-React-and-Typescript-Starter-Pack"><b>Typescript & React Chrome Extension Starter</b></a></td>
