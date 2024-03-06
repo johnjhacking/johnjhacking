@@ -123,8 +123,16 @@
       <td><p>5.4 MEDIUM</p></td>
       <td><p>Studio 42 elFinder through 2.1.31 allows XSS via an SVG document.</p></td>
       <td><p>Credential theft via phishing, but possible escalation to RCE via phishing if the correct conditions are achieved.</p></td>
-      <td><p>Unlikely to lead in an enterprise compromise, but possible account theft for sure.</p></td>
+      <td><p>Unlikely to lead in an enterprise compromise, possible account theft.</p></td>
       <td><a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/from-stored-xss-to-rce-using-beef-and-elfinder-cve-2021-45919/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-43032"><b>CVE-2021-43032: XenForo through 2.2.7 Stored XSS</b></a></td>
+      <td><p>4.8 MEDIUM</p></td>
+      <td><p>In XenForo through 2.2.7, a threat actor with access to the admin panel can create a new Advertisement via the Advertising function, and save an XSS payload in the body of the HTML document. This payload will execute globally on the client side.</p></td>
+      <td><p>Credential theft via phishing</p></td>
+      <td><p>Possible account theft.</p></td>
+      <td><a href="https://github.com/SakuraSamuraii/CVE-2021-43032"><b>Writeup</b></a></td>
     </tr>
   </tbody>
 </table>
