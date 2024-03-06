@@ -8,11 +8,11 @@
 <table>
   <thead align="center">
     <tr border: none;>
-      <td><b>🎁 Tool Name</b></td>
-      <td><b>🎁 Usage</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>📚 Forks</b></td>
-      <td><b>📚 Link</b></td>
+      <td><b>Tool Name</b></td>
+      <td><b>Usage</b></td>
+      <td><b>Stars</b></td>
+      <td><b>Forks</b></td>
+      <td><b>Link</b></td>
     </tr>
   </thead>
   <tbody>
@@ -50,9 +50,9 @@
 <table>
   <thead align="center">
     <tr border: none;>
-      <td><b>🎁 Guide Name</b></td>
-      <td><b>🎁 Description</b></td>
-      <td><b>📚 Link</b></td>
+      <td><b>Guide Name</b></td>
+      <td><b>Description</b></td>
+      <td><b>Link</b></td>
     </tr>
   </thead>
   <tbody>
@@ -77,12 +77,12 @@
 <table>
   <thead align="center">
     <tr border: none;>
-      <td><b>🎁 Name</b></td>
-      <td><b>⭐ Severity</b></td>
-      <td><b>📚 Description</b></td>
-      <td><b>🛎 Associated Risk</b></td>
-      <td><b>🛎 Additional Comments</b></td>
-      <td><b>  Proof of Concept</b></td>
+      <td><b>Name</b></td>
+      <td><b>Severity</b></td>
+      <td><b>Description</b></td>
+      <td><b>Associated Risk</b></td>
+      <td><b>Additional Comments</b></td>
+      <td><b>Proof of Concept</b></td>
     </tr>
   </thead>
   <tbody>
@@ -113,10 +113,18 @@
     <tr>
       <td><a href="https://nvd.nist.gov/vuln/detail/cve-2022-27226"><b>CVE-2022-27226: CSRF to RCE in iRZ Mobile Routers through 2022-03-16</b></a></td>
       <td><p>8.8 HIGH</p></td>
-      <td><p>A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a threat actor to create a crontab entry in the router administration panel. The cronjob will consequently execute the entry on the threat actor's defined interval, leading to remote code execution, allowing the threat actor to gain filesystem access. In addition, if the router's default credentials aren't rotated or a threat actor discovers valid credentials, remote code execution can be achieved without user interaction./p></td>
+      <td><p>A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a threat actor to create a crontab entry in the router administration panel. The cronjob will consequently execute the entry on the threat actor's defined interval, leading to remote code execution, allowing the threat actor to gain filesystem access. In addition, if the router's default credentials aren't rotated or a threat actor discovers valid credentials, remote code execution can be achieved without user interaction.</p></td>
       <td><p>Remote code execution via compromised credentials or chained credential theft.</p></td>
       <td><p>Likely to be abused if access to this router is obtained. Exploitation is trivial.</p></td>
       <td><a href="https://johnjhacking.com/blog/cve-2022-27226/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-45919"><b>CVE-2021-45919: Studio 42 elFinder through 2.1.31 Stored XSS</b></a></td>
+      <td><p>5.4 MEDIUM</p></td>
+      <td><p>Studio 42 elFinder through 2.1.31 allows XSS via an SVG document.</p></td>
+      <td><p>Credential theft via phishing, but possible escalation to RCE via phishing if the correct conditions are achieved.</p></td>
+      <td><p>Unlikely to lead in an enterprise compromise, but possible account theft for sure.</p></td>
+      <td><a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/from-stored-xss-to-rce-using-beef-and-elfinder-cve-2021-45919/"><b>Writeup</b></a></td>
     </tr>
   </tbody>
 </table>
