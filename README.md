@@ -134,6 +134,14 @@
       <td><p>Possible account theft.</p></td>
       <td><a href="https://github.com/SakuraSamuraii/CVE-2021-43032"><b>Writeup</b></a></td>
     </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23827"><b>CVE-2021-23827: Keybase Exposure of Sensitive Information to an Unauthorized Actor</b></a></td>
+      <td><p>5.5 MEDIUM</p></td>
+      <td><p>Keybase Desktop Client before 5.6.0 on Windows and macOS, and before 5.6.1 on Linux, allows an attacker to obtain potentially sensitive media (such as private pictures) in the Cache and uploadtemps directories. It fails to effectively clear cached pictures, even after deletion via normal methodology within the client, or by utilizing the "Explode message/Explode now" functionality. Local filesystem access is needed by the attacker.</p></td>
+      <td><p>Recovery of deleted attachments, rendering deletion pointless.</p></td>
+      <td><p>Unlikely to be abused by your everday threat actor. This is of particular interest to federal agencies or within eDiscovery and legal hold processes.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2021-23827/"><b>Writeup</b></a></td>
+    </tr>
   </tbody>
 </table>
 <h3>Latest Writeups</h3>
