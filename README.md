@@ -1,4 +1,4 @@
-<IN THE PROCESS OF UPDATING AS OF MAR 5th, 2024>
+<IN THE PROCESS OF UPDATING AS OF MAR 28th, 2024>
 
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1643517003/30571/rocket.gif?1643517003" width="30"/> Hack the Galaxy.</h1>
 
