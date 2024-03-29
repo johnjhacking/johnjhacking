@@ -220,4 +220,4 @@
 </table>
 <h3>Archive</h3>
 <ul>
-  <li><a href="https://johnjhacking.com/blog/"><b>tr</ul>
+  <li><a href="https://johnjhacking.com/blog/"><b>Everything</ul>
