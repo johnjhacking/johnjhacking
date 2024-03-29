@@ -2,7 +2,7 @@
 
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1643517003/30571/rocket.gif?1643517003" width="30"/> Hack the Galaxy.</h1>
 
-<p>Welcome to my portfolio. My name is <a href="https://en.wikipedia.org/wiki/John_Jackson_(hacker)">John Jackson</a>, also known to many as "Mr. Hacking".<br>I am the founder of now defunct hacking group <a href="https://en.wikipedia.org/wiki/Sakura_Samurai_(group)">Sakura Samurai</a>.<br><br>I may not research with a group, however, I'm still continously honing my skills and performing security research. This portfolio will be for organizing all of my work/accomplishments. Keep in mind that I cannot possibly link all of the news articles related to my research, otherwise this portfolio will be too long + a lot of what I've been up-to now is NDA. In addition, I may link to blog posts from my old website - but my website is outdated and only running for the sake of archive and backlinks; Github will be my primary operating portfolio now.<br><br> I'm also the author of Corporate Cybersecurity: Identifying Risks and The Bug Bounty Program. Click on the image to see my book!<br><br><a href="https://www.wiley.com/en-us/Corporate+Cybersecurity:+Identifying+Risks+and+the+Bug+Bounty+Program-p-9781119782520" style="display: block; text-align: left;"><img src="https://media.wiley.com/product_data/coverImage300/2X/11197825/111978252X.jpg" alt="Wikipedia" style="border: none; width: 20%; display: block; margin-right: auto; margin-left: 0;"></a><br><br>My portfolio consists of the following sections:<br> • Certifications: All of the certifications I have achieved, in order of most to least recent.<br> • Created Tools by Popularity: A list of all of the tools I have created that aren't part of guide or a tool specific to a CVE proof of concept.<br>• Guides: Writeups pertaining to education, such as certifications.<br>• My Identified Common Vulnerabilities & Exposures (CVES): My assigned CVE identifiers with a quick summary on each, neatly linked with corresponding writeups or proof of concepts.<br> • Blog Posts: All of the blog posts that I have written that are not writeups tied to CVEs, in descending order from most recent to least.<br><br>
+<p>Welcome to my portfolio. My name is <a href="https://en.wikipedia.org/wiki/John_Jackson_(hacker)">John Jackson</a>, also known to many as "Mr. Hacking".<br>I am the founder of now defunct hacking group <a href="https://en.wikipedia.org/wiki/Sakura_Samurai_(group)">Sakura Samurai</a>.<br><br>I may not research with a group, however, I'm still continously honing my skills and performing security research. This portfolio will be for organizing all of my work/accomplishments. Keep in mind that I cannot possibly link all of the news articles related to my research, otherwise this portfolio will be too long. In addition, I may link to blog posts from my old website - but my website is outdated and only running for the sake of archive and backlinks; Github will be my primary operating portfolio now.<br><br> I'm also the author of Corporate Cybersecurity: Identifying Risks and The Bug Bounty Program. Click on the image to see my book!<br><br><a href="https://www.wiley.com/en-us/Corporate+Cybersecurity:+Identifying+Risks+and+the+Bug+Bounty+Program-p-9781119782520" style="display: block; text-align: left;"><img src="https://media.wiley.com/product_data/coverImage300/2X/11197825/111978252X.jpg" alt="Wikipedia" style="border: none; width: 20%; display: block; margin-right: auto; margin-left: 0;"></a><br><br>My portfolio consists of the following sections:<br> • Certifications: All of the certifications I have achieved, in order of most to least recent.<br> • Created Tools by Popularity: A list of all of the tools I have created that aren't part of guide or a tool specific to a CVE proof of concept.<br>• Guides: Writeups pertaining to education, such as certifications.<br>• My Identified Common Vulnerabilities & Exposures (CVES): My assigned CVE identifiers with a quick summary on each, neatly linked with corresponding writeups or proof of concepts.<br> • Blog Posts: All of the blog posts that I have written that are not writeups tied to CVEs, in descending order from most recent to least.<br><br>
 </p>
 <h3>Certifications</h3>
 ‣ Certified Red Team Professional<br>‣ Offensive Security Certified Professional<br>‣ Certified Network Defense Architect<br>‣ Certified Ethical Hacker | Master<br>‣ Certified Network Defender<br>‣ Certified Penetration Testing Engineer<br>‣ Security+<br>‣ A+<br>‣ ITIL Foundation<br>‣ Metasploit Pro Certified Specialist<br>‣ AppSpider Enterprise Certified Specialist
@@ -144,6 +144,78 @@
       <td><p>Unlikely to be abused by your everday threat actor. This is of particular interest to federal agencies or within eDiscovery and legal hold processes.</p></td>
       <td><a href="https://johnjhacking.com/blog/cve-2021-23827/"><b>Writeup</b></a></td>
     </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-40875"><b>CVE-2021-40875: Improper Access Control in Gurock TestRail versions < 7.2.0.3014 resulting in sensitive information exposure</b></a></td>
+      <td><p>7.5 HIGH</p></td>
+      <td><p>Improper Access Control in Gurock TestRail versions < 7.2.0.3014 resulted in sensitive information exposure. A threat actor can access the /files.md5 file on the client side of a Gurock TestRail application, disclosing a full list of application files and the corresponding file paths.</p></td>
+      <td><p>The corresponding file paths can be tested, and in some cases, result in the disclosure of hardcoded credentials, API keys, or other sensitive data.</p></td>
+      <td><p>Possible discovery during web application hacking.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2021-40875/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-24495"><b>CVE-2021-24495: Wordpress Marmoset Viewer Plugin Reflected XSS</b></a></td>
+      <td><p>6.1 MEDIUM</p></td>
+      <td><p>A reflected cross site scripting vulnerability exists on the ‘id’ parameter of the Wordpress Marmoset Viewer plugin. A threat actor can utilize a specially crafted payload and append it to the id parameter included in the Marmoset Viewer. The cross site scripting vulnerability can lead to the potential theft of cookies or credentials, giving the threat actor the ability to take over a victim’s account or steal other sensitive information.</p></td>
+      <td><p>Credential theft via phishing</p></td>
+      <td><p>This may be chained with a post-authenticated exploit, unlikely to be used otherwise.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2021-24495-improper-neutralization-of-input-during-web-page-generation-on-id-parameter-in-wordpress-marmoset-viewer-plugin-versions-1.9.3-leads-to-reflected-cross-site-scripting/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-27653"><b>CVE-2021-27653: Pega Chat Access Group Portal Improper Access Control</b></a></td>
+      <td><p>6.6 MEDIUM</p></td>
+      <td><p>Misconfiguration of the Pega Chat Access Group portal in Pega platform 7.4.0 - 8.5.x could lead to unintended data exposure.</p></td>
+      <td><p>Theft of sensitive data and credential material to perform Administrative account takeover.</p></td>
+      <td><p>There's high associated risk based on how trivial it is.</p></td>
+      <td><a href="https://collaborate.pega.com/discussion/pega-security-advisory-%E2%80%93-b21"><b>Advisory</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-28918"><b>CVE-2021-28919: npm Netmask SSRF Bypass</b></a></td>
+      <td><p>9.1 CRITICAL</p></td>
+      <td><p>Improper input validation of octal strings in netmask npm package v1.0.6 and below allows unauthenticated remote attackers to perform indeterminate SSRF, RFI, and LFI attacks on many of the dependent packages. A remote unauthenticated attacker can bypass packages relying on netmask to filter IPs and reach critical VPN or LAN hosts.</p></td>
+      <td><p>Bypass for prevntive measures against a wide array of attacks including but not limited to SSRF, RFI, LFI, XSS, etc</p></td>
+      <td><p>High associated risk, very likely.</p></td>
+      <td><a href="https://github.com/sickcodes/security/blob/master/advisories/SICK-2021-011.md"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-29662"><b>CVE-2021-29662: Perl Data::Validate::IP Module Access Control Bypass</b></a></td>
+      <td><p>7.5 HIGH</p></td>
+      <td><p>The Data::Validate::IP module through 0.29 for Perl does not properly consider extraneous zero characters at the beginning of an IP address string, which (in some situations) allows attackers to bypass access control that is based on IP addresses.</p></td>
+      <td><p>Bypass for preventive measures within Perl for SSRF, RFI, LFI, XSS, etc</p></td>
+      <td><p>Lower associated risk against modern code, likely against older assets.</p></td>
+      <td><a href="https://sick.codes/sick-2021-018/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-28360"><b>CVE-2020-28360: npm Private-IP SSRF Bypass</b></a></td>
+      <td><p>9.8 CRITICAL</p></td>
+      <td><p>Insufficient RegEx in private-ip npm package v1.0.5 and below insufficiently filters reserved IP ranges.</p></td>
+      <td><p>Indeterminable number of critical attack vectors, allowing remote attackers to request server-side resources or potentially execute arbitrary code through various SSRF techniques.</p></td>
+      <td><p>High probability of exploitation. A modern day filter bypass technique.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2020-28360/"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-27403"><b>CVE-2020-27403: TCL Improper Access Control</b></a></td>
+      <td><p>6.5 MEDIUM</p></td>
+      <td><p>A vulnerability in the TCL Android Smart TV series V8-R851T02-LF1 V295 and below and V8-T658T01-LF1 V373 and below by TCL Technology Group Corporation allows an attacker on the adjacent network to arbitrarily browse and download sensitive files over an insecure web server running on port 7989 that lists all files & directories.</p></td>
+      <td><p>An unprivileged remote attacker on the adjacent network, can download most system files, leading to serious critical information disclosure</p></td>
+      <td><p>High probability of exploitation if outdated TCL TV is on the internal network.</p></td>
+      <td><a href="https://github.com/sickcodes/security/blob/master/advisories/SICK-2020-009.md"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-28055"><b>CVE-2020-28055: TCL Local Privilege Escalation</b></a></td>
+      <td><p>7.8 HIGH</p></td>
+      <td><p>A vulnerability in the TCL Android Smart TV series V8-R851T02-LF1 V295 and below and V8-T658T01-LF1 V373 and below by TCL Technology Group Corporation allows a local unprivileged attacker, such as a malicious App, to read & write to the /data/vendor/tcl, /data/vendor/upgrade, and /var/TerminalManager directories within the TV file system.</p></td>
+      <td><p>Fake system upgrades by writing to the /data/vendor/upgrage folder.</p></td>
+      <td><p>Low liklihood, requires multiple factors to align.</p></td>
+      <td><a href="https://github.com/sickcodes/security/blob/master/advisories/SICK-2020-012.md"><b>Writeup</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2020-27388"><b>YOURLS Admin Panel Stored XSS</b></a></td>
+      <td><p>5.4 MEDIUM</p></td>
+      <td><p>Multiple Stored Cross Site Scripting (XSS) vulnerabilities exist in the YOURLS Admin Panel, Versions 1.5 - 1.7.10. An authenticated user must modify a PHP plugin with a malicious payload and upload it, resulting in multiple stored XSS issues.</p></td>
+      <td><p>Credential theft.</p></td>
+      <td><p>Improbable from an APT perspective, likely for targeted exploitation.</p></td>
+      <td><a href="https://johnjhacking.com/blog/cve-2020-27388/"><b>Writeup</b></a></td>
+    </tr>
   </tbody>
 </table>
 <h3>Latest Writeups</h3>
@@ -162,4 +234,3 @@
 ------------
 <p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Monday, 26 February, 16:01 CET<br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own here!</a></p>
 <p align="center"><img src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg" /> <img alt="Stars" src="https://img.shields.io/github/stars/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/thmsgbrt/thmsgbrt?style=flat-square&labelColor=343b41"/></p>
-
