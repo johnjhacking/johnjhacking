@@ -25,7 +25,7 @@
     </tr>
     <tr>
       <td><p>Signal DLL Hijacking</p></td>
-      <td><p>DLL Malware for Signal Desktop. Utilizes missing cryptbase.dll</p></td>
+      <td><p>DLL Malware for Signal Desktop. Utilizes missing dbghelp.dll</p></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Stars" src="https://img.shields.io/github/forks/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
       <td><p><a href="https://github.com/johnjhacking/Signal-DLL-Hijacking">Github</a></p></td>
