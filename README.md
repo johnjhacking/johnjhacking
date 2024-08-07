@@ -5,7 +5,7 @@
 <h3>Certifications</h3>
 ‣ Certified Red Team Professional<br>‣ Offensive Security Certified Professional<br>‣ Certified Network Defense Architect<br>‣ Certified Ethical Hacker | Master<br>‣ Certified Network Defender<br>‣ Certified Penetration Testing Engineer<br>‣ Security+<br>‣ A+<br>‣ ITIL Foundation<br>‣ Metasploit Pro Certified Specialist<br>‣ AppSpider Enterprise Certified Specialist<br>‣ Pro Labs: Dante<br>‣ Pro Labs: Zephyr
 <h3>Awards</h3>
-‣ Certificate of Appreciation, Information Warfare: Centre For Strategic Communication and Information Security, Ukraine
+‣ Certificate of Appreciation, Information Warfare: Centre For Strategic Communication and Information Security, Ukraine<br>‣ Medal for Service and Valor, 3rd Degree: Joint Forces of the Armed Forces of Ukraine
 <h3>Created Tools by Popularity</h3>
 <table>
   <thead align="center">
