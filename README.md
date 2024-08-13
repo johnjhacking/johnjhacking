@@ -89,6 +89,14 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38143"><b>CVE-2024-38143: Windows WLAN AutoConfig Service Elevation of Privilege Vulnerability</b></a></td>
+      <td><p>4.2 MEDIUM</p></td>
+      <td><p>An unauthenticated attacker could exploit the vulnerability by interacting with a malicious wireless network from the lock screen of a device.</p></td>
+      <td><p>Successful exploitation results in possible escalation to NT AUTHORITY\SYSTEM</p></td>
+      <td><p>Primary attack method requires physical access to the device. As a secondary option, an attacker could pair this with social engineering, but it would still require an in-person presence. Attack vector would be a threat actor who steals a laptop, but is locked out of the computer and wants to access the data/doesn't want to completely reformat or swap drives.</p></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
       <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47800"><b>CVE-2023-47800: Natus NeuroWorks and SleepWorks Use of Hard-coded Credentials</b></a></td>
       <td><p>9.8 CRITICAL</p></td>
       <td><p>Natus NeuroWorks and SleepWorks before 8.4 GMA3 utilize a default password of xltek for the Microsoft SQL Server service sa account, allowing a threat actor to perform remote code execution, data exfiltration, or other nefarious actions such as tampering with data or destroying/disrupting MSSQL services.</p></td>
