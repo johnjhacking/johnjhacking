@@ -25,6 +25,13 @@
       <td><img alt="Stars" src="https://img.shields.io/github/forks/johnjhacking/badgerDAPS?style=flat-square&labelColor=343b41"/></td>
       <td><p><a href="https://github.com/johnjhacking/badgerDAPS">Github</a></p></td>
     </tr>
+     <tr>
+      <td><p>ez-iRZ</p></td>
+      <td><p>Exploit for CVE-2022-27226, CSRF to RCE in iRZ Mobile Routers</p></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/SakuraSamuraii/ez-iRZ?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/forks/SakuraSamuraii/ez-iRZ?style=flat-square&labelColor=343b41"/></td>
+      <td><p><a href="https://github.com/SakuraSamuraii/ez-iRZ">Github</a></p></td>
+    </tr>
     <tr>
       <td><p>Signal DLL Hijacking</p></td>
       <td><p>DLL Malware for Signal Desktop. Utilizes missing dbghelp.dll</p></td>
