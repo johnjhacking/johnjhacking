@@ -8,7 +8,7 @@
 ‣ Certificate of Appreciation, Information Warfare: Centre For Strategic Communication and Information Security, Ukraine<br>‣ Medal for Service and Valor, 3rd Degree: Joint Forces of the Armed Forces of Ukraine
 <h3>Extra Training</h3>
 ‣ Pro Labs: Dante<br>‣ Pro Labs: Zephyr
-<h3>Created Tools by Popularity</h3>
+<h3>Tools and Exploits</h3>
 <table>
   <thead align="center">
     <tr border: none;>
@@ -103,7 +103,7 @@
       <td><p>An unauthenticated attacker could exploit the vulnerability by interacting with a malicious wireless network from the lock screen of a device.</p></td>
       <td><p>Successful exploitation results in possible escalation to NT AUTHORITY\SYSTEM</p></td>
       <td><p>Primary attack method requires physical access to the device. As a secondary option, an attacker could pair this with social engineering, but it would still require an in-person presence. Attack vector would be a threat actor who steals a laptop, but is locked out of the computer and wants to access the data/doesn't want to completely reformat or swap drives.</p></td>
-      <td>N/A</td>
+      <td><a href="https://github.com/johnjhacking/CVE-2024-38143"><b>Writeup</b></td>
     </tr>
     <tr>
       <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-47800"><b>CVE-2023-47800: Natus NeuroWorks and SleepWorks Use of Hard-coded Credentials</b></a></td>
