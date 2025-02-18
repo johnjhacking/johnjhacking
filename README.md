@@ -35,13 +35,6 @@
       <td><p><a href="https://github.com/SakuraSamuraii/ez-iRZ">Github</a></p></td>
     </tr>
     <tr>
-      <td><p>Signal DLL Hijacking</p></td>
-      <td><p>DLL Malware for Signal Desktop. Utilizes missing dbghelp.dll</p></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/forks/johnjhacking/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
-      <td><p><a href="https://github.com/johnjhacking/Signal-DLL-Hijacking">Github</a></p></td>
-    </tr>
-    <tr>
       <td><p>RokuRogue</p></td>
       <td><p>A script for brute forcing Roku TVs and installing applications remotely. </p></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/johnjhacking/RokuRogue?style=flat-square&labelColor=343b41"/></td>
@@ -57,6 +50,40 @@
     </tr>
   </tbody>
 </table>
+<h3>Malware and Loaders</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>Tool Name</b></td>
+      <td><b>Usage</b></td>
+      <td><b>Stars</b></td>
+      <td><b>Forks</b></td>
+      <td><b>Link</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Signal DLL Hijacking</p></td>
+      <td><p>DLL Malware for Signal Desktop. Utilizes missing cryptbase.dll</p></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/redr0nin/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/forks/redr0nin/Signal-DLL-Hijacking?style=flat-square&labelColor=343b41"/></td>
+      <td><p><a href="https://github.com/redr0nin/Signal-DLL-Hijacking">Github</a></p></td>
+    </tr>
+    <tr>
+      <td><p>Bloudstrike</p></td>
+      <td><p>Retired CS bypass loader (linux)</p></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/redr0nin/bloudstrike?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/forks/redr0nin/bloudstrike?style=flat-square&labelColor=343b41"/></td>
+      <td><p><a href="https://github.com/redr0nin/bloudstrike">Github</a></p></td>
+    </tr>
+    <tr>
+      <td><p>Serenity</p></td>
+      <td><p>C# DInvoke Shellcode runner</p></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/redr0nin/Serenity?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/forks/redr0nin/Serenity?style=flat-square&labelColor=343b41"/></td>
+      <td><p><a href="https://github.com/redr0nin/Serenity">Github</a></p></td>
+    </tr>
+  </table>
 <h3>Guides</h3>
 <table>
   <thead align="center">
