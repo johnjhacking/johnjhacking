@@ -7,7 +7,7 @@
 <h3>Awards</h3>
 ‣ Certificate of Appreciation, Information Warfare: Centre For Strategic Communication and Information Security, Ukraine<br>‣ Medal for Service and Valor, 3rd Degree: Joint Forces of the Armed Forces of Ukraine
 <h3>Extra Training</h3>
-‣ Pro Labs: Dante<br>‣ Pro Labs: Zephyr
+‣ Pro Labs: Dante<br>‣ Pro Labs: Zephyr<br>‣ Pro Labs: APTLabs
 <h3>Tools and Exploits</h3>
 <table>
   <thead align="center">
